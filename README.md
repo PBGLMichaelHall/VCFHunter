@@ -66,3 +66,5 @@ python vcf2allPropAndCov.py --conf ../data/config/SorghumVcf.conf
 --origin ../data/config/SorghumOrigin.tab --acc D2_F2_tt --ploidy 2
 
 ```
+![sorghum](https://user-images.githubusercontent.com/93121277/179225452-ade0c628-955b-40f3-a7fd-1cb77edf8f20.png)
+
