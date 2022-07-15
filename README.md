@@ -89,6 +89,7 @@ V5: The allelic Frequency
 # For Polyplody Organisms Separate VCF by Chromosome
 
 
+```r
 #Grep the Header
 bcftools view freebayes~bwa~GCF_000313855.2_ASM31385v2~all_samples~filtered-strict.vcf.gz | grep "^##" > Header.txt
 
@@ -100,7 +101,7 @@ bcftools view freebayes~bwa~GCF_000313855.2_ASM31385v2~all_samples~filtered-stri
 
 #Concatenate to VCF
 cat Header.txt HeaderChrom.txt NC_025202.1.txt > NC_025202.1.vcf.gz
-
+```
 
 
 
