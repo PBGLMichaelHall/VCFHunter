@@ -82,3 +82,25 @@ V5: The allelic Frequency
 ![sorghumtab](https://user-images.githubusercontent.com/93121277/179226513-24e5d1f9-49e6-481d-8baa-cbca3b3c7d42.png)
 
 
+
+
+#######################################################################################################################################################
+
+# For Polyplody Organisms Separate VCF by Chromosome
+
+
+#Grep the Header
+bcftools view freebayes~bwa~GCF_000313855.2_ASM31385v2~all_samples~filtered-strict.vcf.gz | grep "^##" > Header.txt
+
+#Grep the #CHROM line
+bcftools view freebayes~bwa~GCF_000313855.2_ASM31385v2~all_samples~filtered-strict.vcf.gz | grep "^#CHROM" > HeaderChrom.txt
+
+#Grep the Chromosome Lines
+bcftools view freebayes~bwa~GCF_000313855.2_ASM31385v2~all_samples~filtered-strict.vcf.gz | grep "^NC_025202.1" > NC_025202.1.txt
+
+#Concatenate to VCF
+cat Header.txt HeaderChrom.txt NC_025202.1.txt > NC_025202.1.vcf.gz
+
+
+
+
