@@ -67,9 +67,16 @@ python vcf2allPropAndCov.py --conf ../data/config/SorghumVcf.conf
 
 ```
 ![sorghum](https://user-images.githubusercontent.com/93121277/179225452-ade0c628-955b-40f3-a7fd-1cb77edf8f20.png)
+https://github.com/SouthGreenPlatform/VcfHunter/blob/master/tutorial_ChromosomePainting.md
 
+**In this context, a diploid accession having two chromosomes of the same origin (ex. red) should have a red allele ratio near 1 (see Figure below (A))**
 
 #It shows from where the allele was inherited and iits allelic frequency which is specified in the SorghumOrigin.tab
+V1: Chromosome of Variant
+V2: Position of Variant: 
+V3: Alternate Allele
+V4: From which "sample" the allele was inherited
+V5: The allelic Frequency 
 ![sorghumtab](https://user-images.githubusercontent.com/93121277/179226513-24e5d1f9-49e6-481d-8baa-cbca3b3c7d42.png)
 
 
