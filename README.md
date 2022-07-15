@@ -70,6 +70,8 @@ python vcf2allPropAndCov.py --conf ../data/config/SorghumVcf.conf
 https://github.com/SouthGreenPlatform/VcfHunter/blob/master/tutorial_ChromosomePainting.md
 
 **In this context, a diploid accession having two chromosomes of the same origin (ex. red) should have a red allele ratio near 1 (see Figure below (A))**
+**A diploid accessions with chromosomes of two distinct origin (ex. one red and one green) should have green allele ratio near 0.5 and red allele ratio near 0.5 too**
+
 
 #It shows from where the allele was inherited and iits allelic frequency which is specified in the SorghumOrigin.tab
 V1: Chromosome of Variant
