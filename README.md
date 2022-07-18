@@ -62,12 +62,12 @@ vcftools --gzvcf DNAseq_Filtered_filt.vcf.gz --chr Chr10 --recode --out ../data/
 ```r
 
 #Run python script
-python vcf2allPropAndCov.py --conf ../data/config/SorghumVcf.conf
---origin ../data/config/SorghumOrigin.tab --acc D2_F2_tt --ploidy 2
+ python vcf2allPropAndCov.py --conf ../data/config/SorghumVcf.conf --origin ../data/config/SorghumOrigin.tab --acc D2_F2_tt --ploidy 2 --dcurve y --col /data/con
+``` 
+ ![D2_F2_ttRatio](https://user-images.githubusercontent.com/93121277/179458414-c2c39578-7488-44a0-8e40-8013659e4401.png)
+fig/SorghumColor.conf
 
-```
-![sorghum](https://user-images.githubusercontent.com/93121277/179225452-ade0c628-955b-40f3-a7fd-1cb77edf8f20.png)
-https://github.com/SouthGreenPlatform/VcfHunter/blob/master/tutorial_ChromosomePainting.md
+
 
 **In this context, a diploid accession having two chromosomes of the same origin (ex. red) should have a red allele ratio near 1 (see Figure below (A))**
 **A diploid accessions with chromosomes of two distinct origin (ex. one red and one green) should have green allele ratio near 0.5 and red allele ratio near 0.5 too**
@@ -82,6 +82,9 @@ V5: The allelic Frequency
 ![sorghumtab](https://user-images.githubusercontent.com/93121277/179226513-24e5d1f9-49e6-481d-8baa-cbca3b3c7d42.png)
 
 
+# In additio it provides a coverage mapping alon the chromosome.
+
+![D2_F2_ttCov](https://user-images.githubusercontent.com/93121277/179459882-3818c2e7-a4fe-4367-917c-616183fa29d2.png)
 
 
 #######################################################################################################################################################
