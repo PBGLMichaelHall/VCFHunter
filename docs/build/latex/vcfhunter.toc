@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}VCFHunter on Sorghum Semi\sphinxhyphen {}Dwarfism}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Software Prerequisites}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Extract Sample names from VCF}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Filter VCF with python script}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Separate VCF by chromomsome using vcftools}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}VCF Configuration file}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Create a Origin tab delimited file}{3}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Create a Color configuration file}{4}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Run vcf2allPropandCov python script}{4}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Plots}{4}{subsection.1.9}
