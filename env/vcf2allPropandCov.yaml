@@ -1,0 +1,12 @@
+name: vcf2allPropandCov
+
+channels:
+  - default
+  - bioconda
+  - conda-forge
+  - r
+
+dependencies:
+  - scipy=1.2.1
+  - matplotlib
+  - numpy
