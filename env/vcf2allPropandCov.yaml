@@ -10,3 +10,4 @@ dependencies:
   - scipy=1.2.1
   - matplotlib
   - numpy
+  - vcftools 
