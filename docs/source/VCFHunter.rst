@@ -145,6 +145,9 @@ Run vcf2allPropandCov python script
 
 	#Run python script
 	python vcf2allPropAndCov.py --conf ../data/config/SorghumVcf.conf --origin ../data/config/SorghumOrigin.tab --acc D2_F2_tt --ploidy 2 --dcurve y --col /data/config/SorghumColor.conf
+	
+	python vcf2allPropAndCovByChr.py --conf ../data/config/SorghumVcf.conf --origin ../data/config/SorghumOrigin.tab --acc D2_F2_TT, D2_F2_tt --ploidy 2 --NoMiss n --all y
+
 
 
 
