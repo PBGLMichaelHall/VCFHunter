@@ -50,7 +50,7 @@ Extract Sample names from VCF
 
 .. code:: shell
 
-	head -n 1000 DNAseq_prefiltered.vcf | grep "#CHROM" | sed 's/\t/\n/g' | tail -n +10 > all_names.tab
+	head -n 1000 freebayes_D2.filtered.vcf | grep "#CHROM" | sed 's/\t/\n/g' | tail -n +10 > all_names.tab
 
 
 
